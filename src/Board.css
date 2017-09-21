@@ -1,0 +1,47 @@
+table {
+    margin: auto;
+    background-color: black;
+    font-size: 20pt;
+    color: whitesmoke;
+}
+table>tbody>tr {
+    height: 70px;
+
+}
+table>tbody>tr>td {
+    cursor: pointer;
+    width: 70px;
+    background-color: palevioletred;
+}
+button {
+    width: 80%;
+    margin: auto;
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 15pt;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    border:none;
+}
+.disabled_table *{
+    cursor: not-allowed;
+    background-color: rgba(150,128,147,0.7);
+}
+.dynamic_btn {
+    color: white;
+    width: 80%;
+    max-width: 300px;
+    background-color: #4d4d47;
+    border-radius: 5px;
+    box-shadow: 6px 6px 5px 0px #999;
+    margin-top: 20px;
+}
+.dynamic_btn:hover {
+    background-color: #161613;
+}
+.dynamic_btn:active {
+    background-color: #161613;
+    box-shadow: 5px 5px 4px 0px #666;
+    transform: translateY(4px);
+}

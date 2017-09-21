@@ -1,0 +1,24 @@
+.popup_btn {
+    max-width: 200px;
+    margin-top: 40px;
+    color: white;
+    background-color: #484248;
+}
+.popup_btn:hover {
+    background-color: #232023;
+}
+#dimmed-layer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(190, 186, 191, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#popup {
+    width: 60%;
+    height: 200px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}

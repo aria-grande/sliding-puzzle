@@ -1,0 +1,7 @@
+#game_board {
+    margin-top: 150px;
+    text-align: center;
+}
+#game_board>h1 {
+    font-weight: 900;
+}
