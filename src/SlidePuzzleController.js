@@ -5,7 +5,7 @@ import Board from './Board';
 import If from './If';
 import Popup from './Popup';
 
-class App extends Component {
+class SlidePuzzleController extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -116,7 +116,7 @@ class App extends Component {
     );
   }
 }
-App.defaultProps = {
-  size: 4
+SlidePuzzleController.defaultProps = {
+  size: 3
 };
-export default App;
+export default SlidePuzzleController;
