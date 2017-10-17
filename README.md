@@ -1,9 +1,16 @@
+# Introduction
+Hi, I made a sliding puzzle(3x3).
+You can see and play at https://github.com/aria-grande/sliding-puzzle 
+Hope you enjoy :)
+
+# Development & Deployment
+## create-react-app
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
-## Table of Contents
+### Table of Contents
 
 - [Updating to New Releases](#updating-to-new-releases)
 - [Sending Feedback](#sending-feedback)
